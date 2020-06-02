@@ -31,4 +31,4 @@ jobs:
       run: npm install --globle surge
 
     - name: Deploying using Surge
-      run: surge ./ fasikhalid.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ khalidpervez.surge.sh --token ${{ secrets.SURGE_TOKEN }}
